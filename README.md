@@ -4,4 +4,4 @@
 
 ### este es el codigo fuente de mi proyecto
 
-#### Ver el [DEMO] (https://kevinandriu.github.io/MyFinalProject/) del sitio
+#### Ver el [DEMO](https://kevinandriu.github.io/MyFinalProject/) del sitio
