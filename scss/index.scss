@@ -1,0 +1,18 @@
+/* Globales y Variables*/
+@import'./misc/normalize';
+
+
+
+
+/*partials*/
+@import'./partials/header';
+@import'./partials/footer';
+
+
+/*views*/
+
+@import'./views/index';
+@import'./views/quienessomos';
+@import'./views/market';
+@import'./views/servicios';
+@import'./views/contacto';

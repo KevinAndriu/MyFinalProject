@@ -1,0 +1,126 @@
+/*footer*/
+
+.sections_footer {
+    background-color: $secondary;
+    position: relative;
+    display: flex;
+
+    ul {
+        margin-left: 1px;
+        margin-top: -5px;
+        font-size: 2em;
+        padding-top: 10px;
+    }
+}
+
+
+.et_pb_row {
+    padding: 27px 0;
+    background-color: $secondary;
+
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+        visibility: hidden;
+        line-height: 0;
+        height: 0;
+        width: 0;
+    }
+}
+
+
+.section_footer_column {
+    width: 29.6667%;
+    margin-right: 2.5%;
+    margin: 0;
+    float: left;
+    position: relative;
+
+    h4 {
+        font-weight: 600;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        font-size: 18px;
+        padding-bottom: 10px;
+        line-height: 1em;
+    }
+
+    .section_footer_content {
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        color: #f4f4f4;
+        line-height: 1.5em;
+        text-align: center;
+        padding-bottom: 1em;
+        font-size: 14px;
+        font-weight: 300;
+
+        img {
+            width: 100px;
+        }
+    }
+
+}
+
+
+/** Copyright **/
+
+.section_footer_copyright {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: #2b2b2b;
+    padding: 0.5em 0;
+}
+
+.copyright_text {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.about-img {
+    width: 650px;
+    margin: auto;
+    display: block;
+}
+
+.main-content p {
+    width: 70%;
+}
+
+.service-box {
+    width: 100%;
+    padding: 54px 0;
+    position: relative;
+}
+
+.article-service {
+    margin-right: 2.5%;
+    width: 20%;
+    float: left;
+    position: relative;
+    z-index: 300;
+    background-color: orange;
+    color: #fff;
+    padding: 50px 14px;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.title-service {
+    h2 {
+        font-size: 30px;
+        font-family: fantasy;
+        text-align: center;
+        margin: 20px auto 20px auto;
+    }
+}
