@@ -42,7 +42,7 @@
         text-transform: uppercase;
         color: #ffffff;
         text-align: center;
-        font-size: 18px;
+        font-size: map-get($font-sizes, "medium");
         padding-bottom: 10px;
         line-height: 1em;
     }
@@ -57,7 +57,7 @@
         line-height: 1.5em;
         text-align: center;
         padding-bottom: 1em;
-        font-size: 14px;
+        font-size: map-get($font-sizes, "small");
         font-weight: 300;
 
         img {

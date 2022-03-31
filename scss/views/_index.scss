@@ -2,7 +2,7 @@
 
 .jt {
     position: relative;
-    font-size: 50px;
+    font-size: map-get($font-sizes, "xlarge");
     font-family: "Staatliches", sans-serif;
     text-transform: uppercase;
     font-display: swap;
@@ -54,7 +54,10 @@
     }
 }
 
+/*  agregando extend*/
 .jt__row--sibling {
+
+    @extend .jt__row;
     position: absolute;
     top: 0;
     left: 0;
@@ -81,10 +84,7 @@
 }
 
 .main-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    @include flex;
     padding: 14px 0;
 }
 
@@ -121,7 +121,7 @@
         line-height: 1.5em;
         text-align: center;
         padding-bottom: 1em;
-        font-size: 14px;
+        font-size: map-get($font-sizes, "small");
         font-weight: 300;
     }
 }

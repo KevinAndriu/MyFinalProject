@@ -16,6 +16,10 @@ $font-primary: "Times New Roman",
 Times;
 $font-secondary: 'Georgia serif';
 
+/* primer Map*/
+$font-sizes:("small": 12px, "medium": 18px, "large": 24px, "xlarge": 50px, );
+
+
 /*para fuentes usar como media em, y para margin y padding rem*/
 
 html {
@@ -36,7 +40,7 @@ a {
 /* p*/
 
 p {
-    font-size: medium;
+    font-size: map-get($font-sizes, "medium");
     font-family: $secondary;
     text-align: justify;
     text-align: center;
